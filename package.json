@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "phoenix-channels": "^1.0.0"
+  }
+}
