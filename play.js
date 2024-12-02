@@ -1,6 +1,6 @@
 
 
-const name = "student";
+const name = "HighRoller";
 const game = "auto-" + name + "-" + randomInt(1000);
 
 const alphabet = new Set("abcdefghijklmnopqrstuvwxyz".split(''));
@@ -46,7 +46,7 @@ function patMatch(pat, word, guesses) {
 
   return true;
 }
-
+//fun time bet on red
 function onView(view) {
   const puzzle = view.puzzle;
   const guesses = new Set(view.guesses);
@@ -56,7 +56,7 @@ function onView(view) {
   console.log("guesses:", Array.from(guesses));
   console.log("moves:", moves);
 
-  let pats = puzzle.split(" ");
+  /*let pats = puzzle.split(" ");
   for (let pat of pats) {
     for (let word of words) {
       if (patMatch(pat, word, guesses)) {
@@ -64,7 +64,14 @@ function onView(view) {
         break;
       }
     }
-  }
+  }*/
+
+//vowels AEIOU not Y remove them from the legal moves and add them to illegal moves not to used moves
+
+
+
+
+//end that code
 
   let ch = randomPick(moves);
   console.log("guess:", ch);
