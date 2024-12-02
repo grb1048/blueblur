@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "core-js": "^3.39.0",
     "phoenix-channels": "^1.0.0"
   }
 }
